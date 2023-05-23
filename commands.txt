@@ -1,0 +1,37 @@
+Пример PUT запроса в cmd
+curl -X PUT -H "Content-Type: application/json" -d "{\"datatime\":\"22.05.2023 13:01:02\",\"subject\":\"Mail\",\"from\":\"example@gmail.com\",\"message\":\"Test1\"}" http://localhost:8081/addMail?action=add
+
+Пример DELETE запроса на удаление письма в cmd
+curl -X DELETE http://localhost:8081/deleteMail/{mail_4}
+
+Пример POST запроса в консоль разработчика в браузере строку
+fetch("http://localhost:8081/addMails?action=add", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify([
+    {
+      "datatime": "22.05.2023 13:01:02",
+      "subject": "Письмо 1",
+      "from": "example1@gmail.com",
+      "message": "Тестовое сообщение 1"
+    },
+    {
+      "datatime": "23.05.2023 14:02:03",
+      "subject": "Письмо 2",
+      "from": "example2@gmail.com",
+      "message": "Тестовое сообщение 2"
+    }
+  ])
+});
+
+
+Пример GET запроса в адресную строку
+http://localhost:8081/addMails?action=add&mails=[{"datatime": "22.05.2023 13:01:02","subject": "Письмо 1","from": "example1@gmail.com","message": "Тестовое сообщение 1"},{"datatime": "23.05.2023 14:02:03","subject": "Письмо 2","from": "example2@gmail.com","message": "Тестовое сообщение 2"}]
+
+Пример POST запроса с добавлением файла в письмо
+curl -X POST -H "Content-Type: multipart/form-data" -F "datatime=07.05.2023 23:15:15" -F "subject=TestFile" -F "from=example@gmail.com" -F "message=file" -F "file=@C:\Install\МИЭТ\Семестр 4\Интернет программирование\Лаб6\MIET(OrioksStyle).png" http://localhost:8081/addMail?action=add
+
+Пример POST запроса с добавлением файлов в письмо
+curl -X POST -H "Content-Type: multipart/form-data" -F "datatime=07.05.2023 23:15:15" -F "subject=TestFile" -F "from=example@gmail.com" -F "message=file" -F "files=@C:\Install\МИЭТ\Семестр 4\Интернет программирование\Лаб6\MIET(OrioksStyle).png" -F "files=@C:\Install\МИЭТ\Семестр 4\Интернет программирование\Лаб6\MIET.png" http://localhost:8081/addMail?action=add

@@ -1,0 +1,62 @@
+{
+    "header": {
+        "date_create": "07.05.2020",
+        "date_update": "07.05.2020",
+        "author": "aam",
+        "increment": 18
+    },
+    "body": {
+        "mail_1": {
+            "datatime": "07.05.2020 10:15:15",
+            "subject": "Первое",
+            "from": "andymailru@mail.ru",
+            "message": "Первая проверка"
+        },
+        "mail_2": {
+            "datatime": "07.05.2020 10:15:15",
+            "subject": "Второе",
+            "from": "andymailru@mail.ru",
+            "message": "Вторая проверка",
+            "files": {}
+        },
+        "mail_3": {
+            "datatime": "07.05.2020 10:20:15",
+            "subject": "Третье",
+            "from": "andymailru@mail.ru",
+            "message": "Третья проверка",
+            "files": {}
+        },
+        "mail_14": {
+            "datatime": "07.05.2023 23:15:15",
+            "subject": "TestFile",
+            "from": "example@gmail.com",
+            "message": "file",
+            "files": {
+                "filename": "8b19036e1373009dd5795f119c70b52a",
+                "originalname": "MIET(OrioksStyle).png",
+                "mimetype": "image/png",
+                "path": "/uploads/8b19036e1373009dd5795f119c70b52a"
+            }
+        },
+        "mail_15": {
+            "datatime": "07.05.2023 23:15:15",
+            "subject": "TestFile",
+            "from": "example@gmail.com",
+            "message": "file",
+            "files": [
+                {
+                    "filename": "495a978daef99a3f0651d3818374716b",
+                    "originalname": "MIET(OrioksStyle).png",
+                    "mimetype": "image/png",
+                    "path": "/uploads/495a978daef99a3f0651d3818374716b"
+                },
+                {
+                    "filename": "047468c29eebf1767f128e12e665bea2",
+                    "originalname": "MIET.png",
+                    "mimetype": "image/png",
+                    "path": "/uploads/047468c29eebf1767f128e12e665bea2"
+                }
+            ]
+        }
+    }
+}
