@@ -1,0 +1,41 @@
+{
+  "description": "A schema for mail",
+  "type":"object",
+  "properties":{
+    "datatime":{
+      "description":"Дата и время",
+      "type":"string"
+    },
+    "subject":{
+      "description":"Подпись по оси X",
+      "type":"string"
+    },
+    "from":{
+      "description":"Подпись по оси Y",
+      "type":"string"
+    },
+    "message":{
+      "description":"Тип данных по оси X",
+      "type":"string"
+    },
+    "file": {
+      "description": "Файл",
+      "type": "object",
+      "properties": {
+        "filename": {
+          "description": "Имя файла на сервере",
+          "type": "string"
+        },
+        "originalname": {
+          "description": "Оригинальное имя файла",
+          "type": "string"
+        },
+        "mimetype": {
+          "description": "MIME-тип файла",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": ["datatime", "subject", "from", "message"]
+}
