@@ -1,0 +1,98 @@
+2023-05-24T04:18:49.164595600
+{"authorized": false}
+2023-05-24T04:19:48.884209400
+{"authorized": true}
+2023-05-24T04:20:53.458576500
+{"authorized": true}
+2023-05-24T04:22:30.651161800
+{"authorized": true}
+2023-05-24T04:30:07.417279100
+{"authorized": true}
+2023-05-24T14:54:15.629616900
+{"authorized": false}
+2023-05-24T15:02:58.908236500
+{"authorized": true}
+2023-05-24T15:27:07.627011700
+{"authorized": true}
+2023-05-24T15:31:20.345047200
+{"authorized": false}
+2023-05-24T15:31:23.815700400
+{"authorized": true}
+2023-05-24T15:51:43.615430500
+{"authorized": true}
+2023-05-24T15:51:50.741468100
+{"authorized": true}
+2023-05-24T15:51:55.046546400
+{"authorized": false}
+2023-05-24T15:51:57.124271900
+{"authorized": false}
+2023-05-24T15:51:57.643357600
+{"authorized": false}
+2023-05-24T15:51:57.875923100
+{"authorized": false}
+2023-05-24T15:52:02.412303500
+{"authorized": false}
+2023-05-24T15:52:03.756146800
+{"authorized": false}
+2023-05-24T15:52:08.796679800
+{"authorized": false}
+2023-05-24T15:52:10.363912700
+{"authorized": false}
+2023-05-24T15:52:10.539268300
+{"authorized": false}
+2023-05-24T15:52:10.731998200
+{"authorized": false}
+2023-05-24T15:52:14.949427500
+{"authorized": false}
+2023-05-24T15:52:20.777239900
+{"authorized": false}
+2023-05-24T15:53:12.249467700
+{"authorized": true}
+2023-05-24T15:53:16.477100900
+{"authorized": true}
+2023-05-24T16:12:00.684991900
+{"authorized": true}
+2023-05-24T16:12:12.059425600
+{"authorized": true}
+2023-05-24T16:33:04.245753500
+{"authorized": true}
+2023-05-24T16:37:02.049242100
+{"authorized": true}
+2023-05-24T16:39:46.467005400
+{"authorized": true}
+2023-05-24T16:42:06.216139200
+{"authorized": true}
+2023-05-24T16:46:36.377278600
+{"authorized": true}
+2023-05-24T16:58:10.262373
+{"authorized": true}
+2023-05-24T17:00:13.127514400
+{"authorized": true}
+2023-05-24T17:07:14.319117100
+{"authorized": true}
+2023-05-24T17:08:19.654469100
+{"authorized": true}
+2023-05-24T17:10:05.871426500
+{"authorized": true}
+2023-05-24T17:10:33.220644700
+{"authorized": true}
+2023-05-24T17:11:44.551372800
+{"authorized": true}
+2023-05-24T17:27:59.772442300
+{"authorized": true}
+2023-05-24T17:35:51.096588700
+{"authorized": true}
+2023-05-24T17:36:22.802955400
+{"authorized": true}
+2023-05-24T17:37:59.947919500
+{"authorized": true}
+2023-05-24T17:40:14.218196700
+{"authorized": true}
+2023-05-24T17:42:10.338844400
+{"authorized": true}
+2023-05-24T17:44:15.241672700
+{"authorized": true}
+2023-05-24T17:49:02.585835800
+{"authorized": true}
+2023-05-24T17:56:11.294495
+{"authorized": true}
